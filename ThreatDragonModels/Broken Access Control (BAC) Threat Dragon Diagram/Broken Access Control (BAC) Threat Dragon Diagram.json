@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 160,
-              "y": 25
+              "x": 126.25,
+              "y": 40
             },
             "size": {
               "width": 400,
@@ -36,126 +36,6 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 656.25,
-              "y": 345
-            },
-            "size": {
-              "width": 60,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Web UI"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "2d6c07d4-ee79-452e-826d-5a300e90947d"
-                },
-                {
-                  "group": "right",
-                  "id": "e1942331-0054-45ab-8ffe-0fd92db08984"
-                },
-                {
-                  "group": "bottom",
-                  "id": "0c10c6e8-50ca-4a88-aee9-d9bda708ee89"
-                },
-                {
-                  "group": "left",
-                  "id": "83a4bcf7-2fc3-40a4-ac45-1a24f0d7f8b5"
-                }
-              ]
-            },
-            "id": "8fb54c36-565a-4a97-8f71-99319186181f",
-            "zIndex": 1,
-            "data": {
-              "type": "tm.Process",
-              "name": "Web UI",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
             }
           },
           {
@@ -273,51 +153,6 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "9db3493a-52ec-4252-8614-b5800155f655",
-            "source": {
-              "x": 387,
-              "y": 40
-            },
-            "target": {
-              "x": 487,
-              "y": 140
             }
           },
           {
@@ -669,6 +504,181 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 570,
+              "y": 260
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Web UI"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "2d6c07d4-ee79-452e-826d-5a300e90947d"
+                },
+                {
+                  "group": "right",
+                  "id": "e1942331-0054-45ab-8ffe-0fd92db08984"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0c10c6e8-50ca-4a88-aee9-d9bda708ee89"
+                },
+                {
+                  "group": "left",
+                  "id": "83a4bcf7-2fc3-40a4-ac45-1a24f0d7f8b5"
+                }
+              ]
+            },
+            "id": "e6a4e80d-d13f-41aa-aa99-e2f6b03e1cc5",
+            "zIndex": 14,
+            "data": {
+              "type": "tm.Process",
+              "name": "Web UI",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 460,
+              "y": -80
+            },
+            "size": {
+              "width": 310,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Broken Access Control (BAC) Threat Model"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "405ab665-185a-4b8d-9760-71e118b93d93",
+            "zIndex": 15,
+            "data": {
+              "type": "tm.Text",
+              "name": "Broken Access Control (BAC) Threat Model",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1130,
+              "y": 0
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Legends:"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "359053b4-6b1f-409d-9842-73bde3aee47e",
+            "zIndex": 16,
+            "data": {
+              "type": "tm.Text",
+              "name": "Legends:",
+              "hasOpenThreats": false
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ]
