@@ -384,6 +384,61 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "36c30852-d558-4365-b67a-aaa7163bb403",
+            "source": {
+              "cell": "e2fbbe35-1e26-45e3-88a3-fe14d30ec620",
+              "port": "62d867da-f6af-4012-9365-dbfc6717a3a2"
+            },
+            "target": {
+              "cell": "423289b9-8a48-4144-a031-b2fb5c3c2c68",
+              "port": "a801a6ce-531b-48f8-9c2f-81e7a4fb30e3"
+            },
+            "vertices": [
+              {
+                "x": 520,
+                "y": 460
+              },
+              {
+                "x": 730,
+                "y": 460
+              }
+            ]
+          },
+          {
             "position": {
               "x": 990,
               "y": 470
@@ -904,8 +959,8 @@
           },
           {
             "position": {
-              "x": 480,
-              "y": 450
+              "x": 410,
+              "y": 560
             },
             "size": {
               "width": 120,
@@ -926,6 +981,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -1009,7 +1065,6 @@
               ]
             },
             "id": "e2fbbe35-1e26-45e3-88a3-fe14d30ec620",
-            "zIndex": 17,
             "data": {
               "type": "tm.Store",
               "name": "Application ACL Configuration",
@@ -1028,8 +1083,8 @@
           },
           {
             "position": {
-              "x": 690,
-              "y": 370
+              "x": 720,
+              "y": 345
             },
             "size": {
               "width": 120,
@@ -1052,6 +1107,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -1135,7 +1191,6 @@
               ]
             },
             "id": "423289b9-8a48-4144-a031-b2fb5c3c2c68",
-            "zIndex": 18,
             "data": {
               "type": "tm.Store",
               "name": "Database",
