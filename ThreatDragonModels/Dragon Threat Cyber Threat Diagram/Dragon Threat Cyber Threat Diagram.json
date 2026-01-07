@@ -488,7 +488,7 @@
           {
             "position": {
               "x": 590,
-              "y": 419
+              "y": 370
             },
             "size": {
               "width": 112.5,
@@ -496,7 +496,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Victim"
+                "text": "Victim Device"
               },
               "body": {
                 "stroke": "#333333",
@@ -592,7 +592,7 @@
             "zIndex": 5,
             "data": {
               "type": "tm.Actor",
-              "name": "Victim",
+              "name": "Victim Device",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -847,6 +847,123 @@
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 590,
+              "y": 470
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Victim"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "566bdc54-05d1-4312-ad38-057ee3253ca0"
+                },
+                {
+                  "group": "right",
+                  "id": "c010b299-425b-4868-8686-a4e0685edea6"
+                },
+                {
+                  "group": "bottom",
+                  "id": "dfeb5aa3-7845-4a3a-81f9-dfef3cb76bc1"
+                },
+                {
+                  "group": "left",
+                  "id": "e053a327-d135-4cd7-9a57-03aee88b86d5"
+                }
+              ]
+            },
+            "id": "81bf0473-9caa-4351-8192-411628f74fb3",
+            "zIndex": 8,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Victim",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
               "threats": []
             }
           }
