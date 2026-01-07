@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 120,
-              "y": 120
+              "x": 90,
+              "y": 20.00000000000432
             },
             "size": {
               "width": 112.5,
@@ -253,8 +253,8 @@
           },
           {
             "position": {
-              "x": 412.5,
-              "y": 20.00000000000432
+              "x": 270,
+              "y": 300
             },
             "size": {
               "width": 250,
@@ -493,8 +493,8 @@
           },
           {
             "position": {
-              "x": 320,
-              "y": 190
+              "x": 1090,
+              "y": 140
             },
             "size": {
               "width": 120,
@@ -975,8 +975,8 @@
           },
           {
             "position": {
-              "x": 320,
-              "y": 310
+              "x": 870,
+              "y": 160.00000000000432
             },
             "size": {
               "width": 120,
@@ -1093,6 +1093,62 @@
               "storesInventory": false,
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Code Editor (SSH)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Code Editor (SSH)"
+            ],
+            "id": "e088ef63-aba4-49af-a7ef-94dc78c30d62",
+            "source": {
+              "cell": "2ce566f2-850c-49e7-ade9-75f71b758a1d",
+              "port": "dfeb5aa3-7845-4a3a-81f9-dfef3cb76bc1"
+            },
+            "target": {
+              "cell": "3754cebc-fea4-49df-b8f0-b7d7c73398e6",
+              "port": "c2fab9fc-149c-407b-949f-f4c1b91c2407"
+            },
+            "vertices": [
+              {
+                "x": 190,
+                "y": 170
+              },
+              {
+                "x": 360,
+                "y": 170
+              }
+            ]
           }
         ]
       }
