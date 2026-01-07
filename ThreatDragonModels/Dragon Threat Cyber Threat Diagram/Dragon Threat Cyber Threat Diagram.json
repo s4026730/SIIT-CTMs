@@ -877,6 +877,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -960,7 +961,6 @@
               ]
             },
             "id": "02748496-c386-4fe7-b4ec-59f0795c6fc1",
-            "zIndex": 9,
             "data": {
               "type": "tm.Actor",
               "name": "Victim's Device",
@@ -994,6 +994,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -1077,7 +1078,6 @@
               ]
             },
             "id": "71e867fd-d65f-439b-83d8-7e134371e43d",
-            "zIndex": 10,
             "data": {
               "type": "tm.Store",
               "name": "Store",
