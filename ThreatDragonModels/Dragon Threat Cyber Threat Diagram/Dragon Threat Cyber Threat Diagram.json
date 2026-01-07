@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "2ce566f2-850c-49e7-ade9-75f71b758a1d",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Attacker",
@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -238,7 +239,6 @@
               ]
             },
             "id": "df7d341b-4a19-4e50-8fda-0ba268e588e7",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "AI",
@@ -269,6 +269,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -352,7 +353,6 @@
               ]
             },
             "id": "3754cebc-fea4-49df-b8f0-b7d7c73398e6",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Process",
@@ -378,6 +378,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Deployment"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -386,6 +389,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -469,10 +473,9 @@
               ]
             },
             "id": "b06e4b99-67b6-4b26-b147-4ebd7fecdad1",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Deployment",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -483,6 +486,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -506,6 +516,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -589,7 +600,6 @@
               ]
             },
             "id": "5741f630-479a-4cad-a7c8-83ad894a72b9",
-            "zIndex": 5,
             "data": {
               "type": "tm.Actor",
               "name": "Victim Device",
@@ -626,6 +636,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -709,7 +720,6 @@
               ]
             },
             "id": "9e7e559d-1064-4493-ba5e-48f59912472e",
-            "zIndex": 6,
             "data": {
               "type": "tm.Store",
               "name": "AI Database",
@@ -750,6 +760,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -833,7 +844,6 @@
               ]
             },
             "id": "95912d05-ab45-443b-af35-a7de07f31078",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "Victim Database",
@@ -871,6 +881,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -954,7 +965,6 @@
               ]
             },
             "id": "81bf0473-9caa-4351-8192-411628f74fb3",
-            "zIndex": 8,
             "data": {
               "type": "tm.Actor",
               "name": "Victim",
