@@ -617,8 +617,8 @@
           },
           {
             "position": {
-              "x": 860,
-              "y": 370
+              "x": 2000,
+              "y": 630
             },
             "size": {
               "width": 120,
@@ -742,7 +742,7 @@
           {
             "position": {
               "x": 1600,
-              "y": 510
+              "y": 590
             },
             "size": {
               "width": 112.5,
@@ -1584,36 +1584,32 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": true,
-              "isPublicNetwork": true,
-              "protocol": "HTTP/S",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
               "threats": [],
               "trustBoundaryIds": []
             },
             "labels": [
               "Web Response (HTTP/S)"
             ],
-            "id": "d0eed27a-da29-4b0f-b677-ac42d947a24b",
+            "id": "21dee296-71a6-4b18-85d1-8c3c3988e82d",
             "source": {
               "cell": "7aefe8c6-7ef6-48c4-bdb9-7ba2bb8f62c5",
-              "port": "25dfac25-d708-43ec-b9e2-f98e749fb1b1"
+              "port": "ff9a9974-9242-49ec-ba4a-3e65b306b74b"
             },
             "target": {
-              "cell": "81bf0473-9caa-4351-8192-411628f74fb3",
+              "cell": "df7d341b-4a19-4e50-8fda-0ba268e588e7",
               "port": "c010b299-425b-4868-8686-a4e0685edea6"
             },
             "vertices": [
               {
-                "x": 1710,
-                "y": 370
+                "x": 1490,
+                "y": 140
               },
               {
-                "x": 1820,
-                "y": 390
-              },
-              {
-                "x": 1820,
-                "y": 510
+                "x": 1250,
+                "y": 140
               }
             ]
           },
@@ -1644,34 +1640,44 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTP/S",
               "threats": [],
               "trustBoundaryIds": []
             },
             "labels": [
               "Web Response (HTTP/S)"
             ],
-            "id": "21dee296-71a6-4b18-85d1-8c3c3988e82d",
+            "id": "d0eed27a-da29-4b0f-b677-ac42d947a24b",
             "source": {
               "cell": "7aefe8c6-7ef6-48c4-bdb9-7ba2bb8f62c5",
-              "port": "ff9a9974-9242-49ec-ba4a-3e65b306b74b"
+              "port": "25dfac25-d708-43ec-b9e2-f98e749fb1b1"
             },
             "target": {
-              "cell": "df7d341b-4a19-4e50-8fda-0ba268e588e7",
-              "port": "c010b299-425b-4868-8686-a4e0685edea6"
+              "cell": "81bf0473-9caa-4351-8192-411628f74fb3",
+              "port": "566bdc54-05d1-4312-ad38-057ee3253ca0"
             },
             "vertices": [
               {
-                "x": 1490,
-                "y": 140
+                "x": 1710,
+                "y": 370
               },
               {
-                "x": 1250,
-                "y": 140
+                "x": 1850,
+                "y": 450
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -2157,8 +2163,8 @@
           },
           {
             "position": {
-              "x": 1882,
-              "y": 240
+              "x": 1596.25,
+              "y": -220
             },
             "size": {
               "width": 120,
@@ -2179,6 +2185,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -2262,7 +2269,6 @@
               ]
             },
             "id": "f3b040ca-a8af-4525-b841-bb18ee320c46",
-            "zIndex": 15,
             "data": {
               "type": "tm.Store",
               "name": "Database",
