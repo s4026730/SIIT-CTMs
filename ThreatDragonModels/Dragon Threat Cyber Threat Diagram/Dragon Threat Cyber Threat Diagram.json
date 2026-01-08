@@ -493,8 +493,8 @@
           },
           {
             "position": {
-              "x": 627.5,
-              "y": 110
+              "x": 590,
+              "y": 100
             },
             "size": {
               "width": 120,
@@ -1570,6 +1570,161 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "385b4f59-c10b-46fc-aad2-8be0da453412",
+            "source": {
+              "cell": "df7d341b-4a19-4e50-8fda-0ba268e588e7",
+              "port": "566bdc54-05d1-4312-ad38-057ee3253ca0"
+            },
+            "target": {
+              "cell": "9e7e559d-1064-4493-ba5e-48f59912472e",
+              "port": "9b16f116-234a-41a2-a2a7-e1c10dfa12d6"
+            },
+            "vertices": [
+              {
+                "x": 1030,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "c4203c37-f538-4545-8a2b-fe53d8ab9674",
+            "source": {
+              "cell": "9e7e559d-1064-4493-ba5e-48f59912472e",
+              "port": "a3f38abb-d15b-4f64-87de-7058baf8dc27"
+            },
+            "target": {
+              "cell": "1396e903-fcf0-4878-bb6d-53d1d2aa10a6",
+              "port": "80be980d-e0d6-44aa-ba6f-09c2db6d42c8"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Upload data",
+              "description": "Giving necessarily data for the Machine Learning Model to trained.",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Upload data"
+            ],
+            "id": "5e12a05d-ccad-4f5e-9b5b-2a9a326548c2",
+            "source": {
+              "cell": "2ce566f2-850c-49e7-ade9-75f71b758a1d",
+              "port": "566bdc54-05d1-4312-ad38-057ee3253ca0"
+            },
+            "target": {
+              "cell": "9e7e559d-1064-4493-ba5e-48f59912472e",
+              "port": "f8c1de89-19dd-471b-9aca-5538f7a66f99"
+            },
+            "vertices": [
+              {
+                "x": 270,
+                "y": -60
+              },
+              {
+                "x": 570,
+                "y": -60
+              }
+            ]
+          },
+          {
             "position": {
               "x": 910,
               "y": -330
@@ -1809,8 +1964,8 @@
           },
           {
             "position": {
-              "x": 370,
-              "y": 0
+              "x": 390,
+              "y": 20.00000000000432
             },
             "size": {
               "width": 120,
