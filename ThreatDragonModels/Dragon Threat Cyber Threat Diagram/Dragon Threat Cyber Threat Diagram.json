@@ -1114,21 +1114,21 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Code Editor (SSH)",
+              "name": "Code Editor",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "SSH",
               "threats": [],
               "trustBoundaryIds": []
             },
             "labels": [
-              "Code Editor (SSH)"
+              "Code Editor"
             ],
             "id": "e088ef63-aba4-49af-a7ef-94dc78c30d62",
             "source": {
