@@ -1217,58 +1217,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Import",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Import"
-            ],
-            "id": "8b8c9292-a332-44d8-9cc7-4264937388a6",
-            "source": {
-              "cell": "1feca809-a906-405e-82f1-4fe2d00dc266",
-              "port": "b7214710-6a49-45ac-bbaa-63abb59f7e90"
-            },
-            "target": {
-              "cell": "3754cebc-fea4-49df-b8f0-b7d7c73398e6",
-              "port": "c2fab9fc-149c-407b-949f-f4c1b91c2407"
-            },
-            "vertices": [
-              {
-                "x": 440,
-                "y": 70
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Send Packages",
               "description": "Transfer data from Machine Learning Model to Deployment.",
               "outOfScope": false,
@@ -1575,6 +1523,53 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Import",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Import"
+            ],
+            "id": "8b8c9292-a332-44d8-9cc7-4264937388a6",
+            "source": {
+              "cell": "1feca809-a906-405e-82f1-4fe2d00dc266",
+              "port": "b7214710-6a49-45ac-bbaa-63abb59f7e90"
+            },
+            "target": {
+              "cell": "3754cebc-fea4-49df-b8f0-b7d7c73398e6",
+              "port": "c2fab9fc-149c-407b-949f-f4c1b91c2407"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 910,
               "y": -330
@@ -1814,8 +1809,8 @@
           },
           {
             "position": {
-              "x": 367.5,
-              "y": 20.00000000000432
+              "x": 370,
+              "y": 0
             },
             "size": {
               "width": 120,
