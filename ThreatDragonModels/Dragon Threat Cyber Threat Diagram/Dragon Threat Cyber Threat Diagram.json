@@ -493,8 +493,8 @@
           },
           {
             "position": {
-              "x": 1090,
-              "y": 140
+              "x": 1050,
+              "y": -420
             },
             "size": {
               "width": 120,
@@ -742,7 +742,7 @@
           {
             "position": {
               "x": 1540,
-              "y": 590
+              "y": 610
             },
             "size": {
               "width": 112.5,
@@ -858,8 +858,8 @@
           },
           {
             "position": {
-              "x": 1200,
-              "y": 360
+              "x": 747.5,
+              "y": -400
             },
             "size": {
               "width": 112.5,
@@ -975,8 +975,8 @@
           },
           {
             "position": {
-              "x": 1110,
-              "y": 40
+              "x": 1290,
+              "y": -410
             },
             "size": {
               "width": 120,
@@ -1114,7 +1114,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Code Editor",
+              "name": "Visual Studio Code (SSH)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1128,7 +1128,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Code Editor"
+              "Visual Studio Code (SSH)"
             ],
             "id": "e088ef63-aba4-49af-a7ef-94dc78c30d62",
             "source": {
@@ -1273,8 +1273,8 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
+              "name": "Send Packages",
+              "description": "Transfer data from Machine Learning Model to Deployment.",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -1287,7 +1287,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Send Packages"
             ],
             "id": "7e899b34-e3fe-4747-a30d-931d29832c2b",
             "source": {
@@ -1338,7 +1338,7 @@
             "data": {
               "type": "tm.Flow",
               "name": "Update & Activate",
-              "description": "",
+              "description": "Update latest Machine Learning Model version and start",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -1411,15 +1411,15 @@
             },
             "vertices": [
               {
-                "x": 1760,
-                "y": 480
+                "x": 1750,
+                "y": 500
               },
               {
-                "x": 1790,
+                "x": 1780,
                 "y": 550
               },
               {
-                "x": 1770,
+                "x": 1760,
                 "y": 620
               }
             ]
@@ -1472,9 +1472,116 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "e30afd6d-e3af-4531-8b0f-5cf5f2393c36",
+            "source": {
+              "cell": "7aefe8c6-7ef6-48c4-bdb9-7ba2bb8f62c5",
+              "port": "ff9a9974-9242-49ec-ba4a-3e65b306b74b"
+            },
+            "target": {
+              "cell": "81bf0473-9caa-4351-8192-411628f74fb3",
+              "port": "e053a327-d135-4cd7-9a57-03aee88b86d5"
+            },
+            "vertices": [
+              {
+                "x": 1410,
+                "y": 380
+              },
+              {
+                "x": 1390,
+                "y": 460
+              },
+              {
+                "x": 1410,
+                "y": 620
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "74743dee-11cb-4dec-8941-63956cba996d",
+            "source": {
+              "cell": "df7d341b-4a19-4e50-8fda-0ba268e588e7",
+              "port": "c010b299-425b-4868-8686-a4e0685edea6"
+            },
+            "target": {
+              "cell": "7aefe8c6-7ef6-48c4-bdb9-7ba2bb8f62c5",
+              "port": "27d4bd35-0c94-40d3-bc95-736ed1dd38b7"
+            },
+            "vertices": []
+          },
+          {
             "position": {
-              "x": 1010,
-              "y": 500
+              "x": 910,
+              "y": -330
             },
             "size": {
               "width": 112.5,
@@ -1835,11 +1942,11 @@
           },
           {
             "position": {
-              "x": 1511.25,
-              "y": 310
+              "x": 1526.25,
+              "y": 300
             },
             "size": {
-              "width": 170,
+              "width": 140,
               "height": 140
             },
             "attrs": {
