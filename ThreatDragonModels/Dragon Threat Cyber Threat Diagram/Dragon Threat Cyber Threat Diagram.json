@@ -1151,9 +1151,56 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Modification",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Modification"
+            ],
+            "id": "5f8b19c6-45f7-448f-a019-6ecb27387a0a",
+            "source": {
+              "cell": "3754cebc-fea4-49df-b8f0-b7d7c73398e6",
+              "port": "72eb16f2-742f-4035-b9ef-08b2a586230c"
+            },
+            "target": {
+              "cell": "1396e903-fcf0-4878-bb6d-53d1d2aa10a6",
+              "port": "80be980d-e0d6-44aa-ba6f-09c2db6d42c8"
+            },
+            "vertices": []
+          },
+          {
             "position": {
-              "x": 338.75,
-              "y": 530
+              "x": 1010,
+              "y": 500
             },
             "size": {
               "width": 112.5,
@@ -1261,6 +1308,130 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 335,
+              "y": 650
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Machine Learning Model"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "80be980d-e0d6-44aa-ba6f-09c2db6d42c8"
+                },
+                {
+                  "group": "right",
+                  "id": "cf4c7bbd-35c3-4896-8d39-05cdd6fbfceb"
+                },
+                {
+                  "group": "bottom",
+                  "id": "8625b0c6-f6c6-4035-b561-8ddf5f3499e1"
+                },
+                {
+                  "group": "left",
+                  "id": "35e1a779-fca8-4b40-90b3-3b473fc23d44"
+                }
+              ]
+            },
+            "id": "1396e903-fcf0-4878-bb6d-53d1d2aa10a6",
+            "zIndex": 12,
+            "data": {
+              "type": "tm.Store",
+              "name": "Machine Learning Model",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
               "threats": []
             }
           }
