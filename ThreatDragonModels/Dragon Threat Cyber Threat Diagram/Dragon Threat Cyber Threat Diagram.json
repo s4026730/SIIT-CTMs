@@ -136,8 +136,8 @@
           },
           {
             "position": {
-              "x": 590,
-              "y": 250
+              "x": 873.75,
+              "y": 270
             },
             "size": {
               "width": 112.5,
@@ -253,11 +253,11 @@
           },
           {
             "position": {
-              "x": 270,
-              "y": 300
+              "x": 335,
+              "y": 280
             },
             "size": {
-              "width": 250,
+              "width": 140,
               "height": 140
             },
             "attrs": {
@@ -373,8 +373,8 @@
           },
           {
             "position": {
-              "x": 642.5,
-              "y": 20.00000000000432
+              "x": 860,
+              "y": -39.99999999999568
             },
             "size": {
               "width": 140,
@@ -741,7 +741,7 @@
           },
           {
             "position": {
-              "x": 590,
+              "x": 873.75,
               "y": 470
             },
             "size": {
@@ -858,8 +858,8 @@
           },
           {
             "position": {
-              "x": 590,
-              "y": 370
+              "x": 1200,
+              "y": 360
             },
             "size": {
               "width": 112.5,
@@ -1198,6 +1198,58 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Import",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Import"
+            ],
+            "id": "8b8c9292-a332-44d8-9cc7-4264937388a6",
+            "source": {
+              "cell": "1feca809-a906-405e-82f1-4fe2d00dc266",
+              "port": "b7214710-6a49-45ac-bbaa-63abb59f7e90"
+            },
+            "target": {
+              "cell": "3754cebc-fea4-49df-b8f0-b7d7c73398e6",
+              "port": "25806536-dc24-4b5f-b5b3-bedf309f7e18"
+            },
+            "vertices": [
+              {
+                "x": 640,
+                "y": 270
+              }
+            ]
+          },
+          {
             "position": {
               "x": 1010,
               "y": 500
@@ -1215,6 +1267,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1298,7 +1351,6 @@
               ]
             },
             "id": "7104d409-d6e0-4e43-8f50-c7c4723de1ba",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
@@ -1313,7 +1365,7 @@
           },
           {
             "position": {
-              "x": 335,
+              "x": 345,
               "y": 650
             },
             "size": {
@@ -1335,6 +1387,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1418,10 +1471,133 @@
               ]
             },
             "id": "1396e903-fcf0-4878-bb6d-53d1d2aa10a6",
-            "zIndex": 12,
             "data": {
               "type": "tm.Store",
               "name": "Machine Learning Model",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 610,
+              "y": -50
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "ML Extensions & Libraries"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "465e966e-1d43-4639-8d00-6dba05cde432"
+                },
+                {
+                  "group": "right",
+                  "id": "ee61b5c6-473c-4d14-a9df-f33735ca8bca"
+                },
+                {
+                  "group": "bottom",
+                  "id": "b7214710-6a49-45ac-bbaa-63abb59f7e90"
+                },
+                {
+                  "group": "left",
+                  "id": "2283c888-bb4f-4dde-be9b-0e2a23d1cb62"
+                }
+              ]
+            },
+            "id": "1feca809-a906-405e-82f1-4fe2d00dc266",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Store",
+              "name": "ML Extensions & Libraries",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
