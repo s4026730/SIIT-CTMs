@@ -1384,7 +1384,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Web Request",
+              "name": "Web Request (HTTP/S)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1398,7 +1398,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Web Request"
+              "Web Request (HTTP/S)"
             ],
             "id": "ab341de4-dc18-4857-9a6d-fe20bb1067d1",
             "source": {
@@ -1436,21 +1436,21 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Web Response (HTTP/S)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTP/S",
               "threats": [],
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Web Response (HTTP/S)"
             ],
             "id": "d0eed27a-da29-4b0f-b677-ac42d947a24b",
             "source": {
@@ -1851,6 +1851,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1934,7 +1935,6 @@
               ]
             },
             "id": "7aefe8c6-7ef6-48c4-bdb9-7ba2bb8f62c5",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
               "name": "Web Application",
