@@ -1640,16 +1640,16 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": true,
-              "isPublicNetwork": true,
-              "protocol": "HTTP/S",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
               "threats": [],
               "trustBoundaryIds": []
             },
             "labels": [
               "Web Response (HTTP/S)"
             ],
-            "id": "d0eed27a-da29-4b0f-b677-ac42d947a24b",
+            "id": "7c0ce1f9-2d74-432a-80fb-ace82d017206",
             "source": {
               "cell": "7aefe8c6-7ef6-48c4-bdb9-7ba2bb8f62c5",
               "port": "25dfac25-d708-43ec-b9e2-f98e749fb1b1"
@@ -1660,24 +1660,109 @@
             },
             "vertices": [
               {
-                "x": 1710,
-                "y": 370
-              },
-              {
-                "x": 1850,
-                "y": 450
+                "x": 1840,
+                "y": 470
               }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
             ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "id": "322d0fde-b397-486d-b79b-2439136dbbfc",
+            "source": {
+              "cell": "f3b040ca-a8af-4525-b841-bb18ee320c46",
+              "port": "3f66893a-13a7-40c2-916b-77e70a680751"
+            },
+            "target": {
+              "cell": "7aefe8c6-7ef6-48c4-bdb9-7ba2bb8f62c5",
+              "port": "27d4bd35-0c94-40d3-bc95-736ed1dd38b7"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Queries",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Queries"
+            ],
+            "id": "873202fa-ca8c-45fa-b803-95513fdfedb3",
+            "source": {
+              "cell": "7aefe8c6-7ef6-48c4-bdb9-7ba2bb8f62c5",
+              "port": "27d4bd35-0c94-40d3-bc95-736ed1dd38b7"
+            },
+            "target": {
+              "cell": "f3b040ca-a8af-4525-b841-bb18ee320c46",
+              "port": "3f66893a-13a7-40c2-916b-77e70a680751"
+            },
+            "vertices": [
+              {
+                "x": 1800,
+                "y": 20
+              }
+            ]
           },
           {
             "position": {
@@ -2175,11 +2260,13 @@
                 "text": "Database"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2276,13 +2363,27 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "2e4e2182-4a32-49ae-a832-d490a04b80ec",
+                  "title": "Unauthorized Access",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Information disclosure",
+                  "description": "The AI could be able to conduct an query call to the platform database upon gaining enough information via successful MiTM (Man in the middle) attacks",
+                  "mitigation": "Require the authentication to not be outdated and able to detect suspicious request.",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ]
             }
           }
         ]
@@ -2290,6 +2391,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
