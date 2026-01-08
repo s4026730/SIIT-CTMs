@@ -254,7 +254,7 @@
           {
             "position": {
               "x": 335,
-              "y": 280
+              "y": 200
             },
             "size": {
               "width": 140,
@@ -1142,11 +1142,11 @@
             "vertices": [
               {
                 "x": 190,
-                "y": 170
+                "y": 140
               },
               {
                 "x": 360,
-                "y": 170
+                "y": 140
               }
             ]
           },
@@ -1170,7 +1170,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Modification",
+              "name": "Modify",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1184,7 +1184,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Modification"
+              "Modify"
             ],
             "id": "5f8b19c6-45f7-448f-a019-6ecb27387a0a",
             "source": {
@@ -1240,12 +1240,12 @@
             },
             "target": {
               "cell": "3754cebc-fea4-49df-b8f0-b7d7c73398e6",
-              "port": "25806536-dc24-4b5f-b5b3-bedf309f7e18"
+              "port": "c2fab9fc-149c-407b-949f-f4c1b91c2407"
             },
             "vertices": [
               {
-                "x": 640,
-                "y": 270
+                "x": 440,
+                "y": 70
               }
             ]
           },
@@ -1366,7 +1366,7 @@
           {
             "position": {
               "x": 345,
-              "y": 650
+              "y": 470
             },
             "size": {
               "width": 120,
@@ -1489,8 +1489,8 @@
           },
           {
             "position": {
-              "x": 610,
-              "y": -50
+              "x": 550,
+              "y": -60
             },
             "size": {
               "width": 120,
@@ -1511,6 +1511,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1594,7 +1595,6 @@
               ]
             },
             "id": "1feca809-a906-405e-82f1-4fe2d00dc266",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
               "name": "ML Extensions & Libraries",
