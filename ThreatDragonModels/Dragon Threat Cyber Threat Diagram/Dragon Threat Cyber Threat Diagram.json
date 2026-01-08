@@ -1784,7 +1784,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Worker Queries",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1798,7 +1798,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Worker Queries"
             ],
             "id": "80554a88-f05a-4dcf-a1b0-bbebc507a04e",
             "source": {
@@ -1815,7 +1815,8 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -1831,21 +1832,35 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Worker Query Results",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [],
+              "threats": [
+                {
+                  "id": "211421b6-1bc1-4d4e-82b5-868d3cb3ee29",
+                  "title": "Man in The Middle Attack",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Information disclosure",
+                  "description": "The AI could intercept the database queries in transit and obtain sensitive information, such as credentials, query parameters or query results (is unlikely since the data flow is over a private network)",
+                  "mitigation": "Enforce an encrypted connection to the server",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                }
+              ],
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Worker Query Results"
             ],
             "id": "5c69961c-8568-42c8-ae27-39ec126d4721",
             "source": {
@@ -2512,13 +2527,14 @@
                 "text": "Background\nWorker Process"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -2602,7 +2618,6 @@
               ]
             },
             "id": "c4f5c706-4f67-4a87-aa3d-b88b99eb435e",
-            "zIndex": 16,
             "data": {
               "type": "tm.Process",
               "name": "Background\nWorker Process",
@@ -2610,12 +2625,26 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "57d41fd6-3f89-4c91-a55f-b5e22fced96d",
+                  "title": "Poison messages",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "Automatic generated malicious message(s) made by AI which prevent background worker process.",
+                  "mitigation": "Validate the content of all messages, before processing. Reject any message that have invalid content and log the rejection, do not log the malicious content; instead log a description of the error.",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
+              ]
             }
           }
         ]
@@ -2623,6 +2652,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 2
+    "threatTop": 4
   }
 }
