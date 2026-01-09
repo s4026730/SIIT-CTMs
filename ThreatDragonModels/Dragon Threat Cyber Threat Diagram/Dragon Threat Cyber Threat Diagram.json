@@ -1213,7 +1213,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Send Packages",
+              "name": "Deploy Packages",
               "description": "Transfer data from Machine Learning Model to Deployment.",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1227,7 +1227,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Send Packages"
+              "Deploy Packages"
             ],
             "id": "7e899b34-e3fe-4747-a30d-931d29832c2b",
             "source": {
@@ -1371,7 +1371,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Upload Data",
+              "name": "Data Transfer",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1385,7 +1385,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Upload Data"
+              "Data Transfer"
             ],
             "id": "385b4f59-c10b-46fc-aad2-8be0da453412",
             "source": {
@@ -1423,21 +1423,21 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Upload data",
+              "name": "Data Transfer",
               "description": "Giving necessarily data for the Machine Learning Model to trained.",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": []
             },
             "labels": [
-              "Upload data"
+              "Data Transfer"
             ],
             "id": "5e12a05d-ccad-4f5e-9b5b-2a9a326548c2",
             "source": {
@@ -1946,7 +1946,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Upload Data",
+              "name": "Data Transfer",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1960,7 +1960,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Upload Data"
+              "Data Transfer"
             ],
             "id": "4b0887f2-bc12-40e8-b75c-ba4afb99bb20",
             "source": {
@@ -2084,6 +2084,53 @@
                 "y": 470
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "735dceca-e4c4-46ad-a30e-44cf7c8ace64",
+            "source": {
+              "cell": "9e7e559d-1064-4493-ba5e-48f59912472e",
+              "port": "a3f38abb-d15b-4f64-87de-7058baf8dc27"
+            },
+            "target": {
+              "cell": "02eb06c0-69f9-45cd-a6d0-7815ea73068f",
+              "port": "791518d4-4179-4544-9630-f23f952215ff"
+            },
+            "vertices": []
           },
           {
             "position": {
@@ -3095,6 +3142,123 @@
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 700,
+              "y": -30
+            },
+            "size": {
+              "width": 140,
+              "height": 160
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "791518d4-4179-4544-9630-f23f952215ff"
+                },
+                {
+                  "group": "right",
+                  "id": "b6be1aec-f626-44fd-842a-042db3c3fd13"
+                },
+                {
+                  "group": "bottom",
+                  "id": "61d517b3-04de-472e-b9ee-eda363b0d788"
+                },
+                {
+                  "group": "left",
+                  "id": "b34542ae-1ac0-4a92-a5b5-ec351b4c8af3"
+                }
+              ]
+            },
+            "id": "02eb06c0-69f9-45cd-a6d0-7815ea73068f",
+            "zIndex": 19,
+            "data": {
+              "type": "tm.Process",
+              "name": "Process",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
               "threats": []
             }
           }
