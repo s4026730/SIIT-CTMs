@@ -262,7 +262,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Code Editor \n(e.g. \nVisual Studio Code, \nSublime Text, \netc..)"
+                "text": "Code Editor \n(e.g. \nVisual Studio Code, \nJupyter Notebook,\nSPYDER, \netc..)"
               },
               "body": {
                 "stroke": "#333333",
@@ -358,7 +358,7 @@
             "id": "3754cebc-fea4-49df-b8f0-b7d7c73398e6",
             "data": {
               "type": "tm.Process",
-              "name": "Code Editor \n(e.g. \nVisual Studio Code, \nSublime Text, \netc..)",
+              "name": "Code Editor \n(e.g. \nVisual Studio Code, \nJupyter Notebook,\nSPYDER, \netc..)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
