@@ -2508,7 +2508,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Multimodal Data \nIngestion Application\n(Python)"
+                "text": "Multimodal \nData Ingestion \nApplication / Program\n(Python)"
               },
               "body": {
                 "stroke": "#333333",
@@ -2604,7 +2604,7 @@
             "id": "f0e439ef-4ebf-4419-a9ac-20d0ef4385c0",
             "data": {
               "type": "tm.Process",
-              "name": "Multimodal Data \nIngestion Application\n(Python)",
+              "name": "Multimodal \nData Ingestion \nApplication / Program\n(Python)",
               "description": "A Python application / program responsible for gathering victim's image(s) or audio(s) or text(s) collected from AI itself and storing them in the designated Training and Validation storage. ",
               "outOfScope": false,
               "isTrustBoundary": false,
