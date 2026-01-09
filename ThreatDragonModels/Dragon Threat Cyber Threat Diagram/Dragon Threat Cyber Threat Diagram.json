@@ -1979,6 +1979,62 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "80f9f403-fcde-445f-883d-5eb2d3c2b9b5",
+            "source": {
+              "cell": "02eb06c0-69f9-45cd-a6d0-7815ea73068f",
+              "port": "61d517b3-04de-472e-b9ee-eda363b0d788"
+            },
+            "target": {
+              "cell": "e863b42e-a6bf-423e-a114-7a35fc6d8fe3",
+              "port": "9dfbf075-daa4-4a6d-9679-d31db805c365"
+            },
+            "vertices": [
+              {
+                "x": 840,
+                "y": 130
+              },
+              {
+                "x": 700,
+                "y": 100
+              }
+            ]
+          },
+          {
             "position": {
               "x": 345,
               "y": 470
@@ -2864,7 +2920,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Model Training & Evaluation System",
-              "description": "Contains images, audios and texts used for training and validation of machine learning models.\nData set: Training and Validation Images\nContains images used for training and validation of machine learning models.\n Record count maximum of 100000 with data sensitivity of biz and access control methods of rbac",
+              "description": "Contains images, audios and texts used for training and validation of machine learning models. Contains images used for training and validation of machine learning models.",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -2875,6 +2931,13 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
