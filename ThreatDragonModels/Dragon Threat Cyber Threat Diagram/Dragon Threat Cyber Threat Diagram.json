@@ -1916,7 +1916,7 @@
             },
             "vertices": [
               {
-                "x": 510,
+                "x": 500,
                 "y": -80
               }
             ]
@@ -1972,7 +1972,7 @@
                 "y": -70
               },
               {
-                "x": 580,
+                "x": 570,
                 "y": -70
               }
             ]
@@ -2748,7 +2748,7 @@
           },
           {
             "position": {
-              "x": 430,
+              "x": 420,
               "y": -30
             },
             "size": {
@@ -2757,7 +2757,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Gather\nImages Application\n(Python)"
+                "text": "Multimodal Data \nIngestion Application\n(Python)"
               },
               "body": {
                 "stroke": "#333333",
@@ -2853,7 +2853,7 @@
             "id": "f0e439ef-4ebf-4419-a9ac-20d0ef4385c0",
             "data": {
               "type": "tm.Process",
-              "name": "Gather\nImages Application\n(Python)",
+              "name": "Multimodal Data \nIngestion Application\n(Python)",
               "description": "A Python application / program responsible for gathering images from external sources and from the AI itself and storing them in the designated Training and Validation Images storage. ",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2864,6 +2864,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ]
