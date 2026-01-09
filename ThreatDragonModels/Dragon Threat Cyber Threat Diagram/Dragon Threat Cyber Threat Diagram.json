@@ -2854,7 +2854,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Multimodal Data \nIngestion Application\n(Python)",
-              "description": "A Python application / program responsible for gathering images from external sources and from the AI itself and storing them in the designated Training and Validation Images storage. ",
+              "description": "A Python application / program responsible for gathering victim's image(s) or audio(s) or text(s) collected from AI itself and storing them in the designated Training and Validation storage. ",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -2864,13 +2864,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ]
