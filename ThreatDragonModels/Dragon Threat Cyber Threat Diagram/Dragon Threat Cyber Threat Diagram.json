@@ -1235,9 +1235,9 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTP/S",
               "threats": [],
               "trustBoundaryIds": []
             },
@@ -1739,21 +1739,6 @@
             "target": {
               "cell": "e863b42e-a6bf-423e-a114-7a35fc6d8fe3",
               "port": "9dfbf075-daa4-4a6d-9679-d31db805c365"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             },
             "vertices": []
           },
@@ -2898,6 +2883,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 21,
             "ports": {
               "groups": {
                 "top": {
@@ -2981,7 +2967,6 @@
               ]
             },
             "id": "e2791683-937b-4d13-b767-de4ff8137a22",
-            "zIndex": 21,
             "data": {
               "type": "tm.Store",
               "name": "Security Telemetry Program\n(e.g. OpenTelemetry, etc..)",
