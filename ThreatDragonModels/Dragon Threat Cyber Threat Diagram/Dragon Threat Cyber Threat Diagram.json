@@ -2095,7 +2095,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Web Application"
+                "text": "Social Media \nPlatform"
               },
               "body": {
                 "stroke": "#333333",
@@ -2191,7 +2191,7 @@
             "id": "7aefe8c6-7ef6-48c4-bdb9-7ba2bb8f62c5",
             "data": {
               "type": "tm.Process",
-              "name": "Web Application",
+              "name": "Social Media \nPlatform",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
