@@ -2746,7 +2746,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Gather\nImages Application\n(Python)",
-              "description": "",
+              "description": "A Python application / program responsible for gathering images from external sources and from the AI itself and storing them in the designated Training and Validation Images storage. ",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -2756,6 +2756,15 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ]
