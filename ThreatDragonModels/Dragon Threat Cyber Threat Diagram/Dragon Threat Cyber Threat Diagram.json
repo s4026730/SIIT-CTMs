@@ -1983,6 +1983,53 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Stores",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Stores"
+            ],
+            "id": "9829710f-134b-458a-9915-8a9de37ded82",
+            "source": {
+              "cell": "f0e439ef-4ebf-4419-a9ac-20d0ef4385c0",
+              "port": "2d1c7408-40d6-48dd-8379-5691747a05e7"
+            },
+            "target": {
+              "cell": "e863b42e-a6bf-423e-a114-7a35fc6d8fe3",
+              "port": "9dfbf075-daa4-4a6d-9679-d31db805c365"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 860,
               "y": -580
@@ -2982,7 +3029,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Model Training & Evaluation System",
-              "description": "",
+              "description": "Contains images, audios and texts used for training and validation of machine learning models.\nData set: Training and Validation Images\nContains images used for training and validation of machine learning models.\n Record count maximum of 100000 with data sensitivity of biz and access control methods of rbac",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
