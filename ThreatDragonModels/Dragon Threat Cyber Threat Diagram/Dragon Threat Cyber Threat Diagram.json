@@ -493,8 +493,8 @@
           },
           {
             "position": {
-              "x": 660,
-              "y": -170
+              "x": 710,
+              "y": -209.99999999999568
             },
             "size": {
               "width": 120,
@@ -1139,7 +1139,12 @@
               "cell": "3754cebc-fea4-49df-b8f0-b7d7c73398e6",
               "port": "c2fab9fc-149c-407b-949f-f4c1b91c2407"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 360,
+                "y": 110
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1449,7 +1454,7 @@
                 "y": -290
               },
               {
-                "x": 630,
+                "x": 660,
                 "y": -290
               }
             ]
@@ -1481,8 +1486,8 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": []
@@ -1528,8 +1533,8 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": []
@@ -1916,8 +1921,8 @@
             },
             "vertices": [
               {
-                "x": 500,
-                "y": -80
+                "x": 480,
+                "y": -70
               }
             ]
           },
@@ -1968,7 +1973,7 @@
             },
             "vertices": [
               {
-                "x": 690,
+                "x": 730,
                 "y": -70
               },
               {
@@ -2748,7 +2753,7 @@
           },
           {
             "position": {
-              "x": 430,
+              "x": 420,
               "y": -30
             },
             "size": {
