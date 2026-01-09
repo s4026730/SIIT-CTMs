@@ -1849,9 +1849,9 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "TLS",
               "threats": [],
               "trustBoundaryIds": []
             },
@@ -1896,9 +1896,9 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "TLS",
               "threats": [],
               "trustBoundaryIds": []
             },
@@ -1941,7 +1941,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Upload Data",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1955,7 +1955,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Upload Data"
             ],
             "id": "4b0887f2-bc12-40e8-b75c-ba4afb99bb20",
             "source": {
@@ -2748,7 +2748,7 @@
           },
           {
             "position": {
-              "x": 420,
+              "x": 430,
               "y": -30
             },
             "size": {
