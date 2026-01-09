@@ -20,7 +20,7 @@
           {
             "position": {
               "x": 90,
-              "y": 20.00000000000432
+              "y": -140
             },
             "size": {
               "width": 112.5,
@@ -494,7 +494,7 @@
           {
             "position": {
               "x": 660,
-              "y": 10
+              "y": -170
             },
             "size": {
               "width": 120,
@@ -1139,16 +1139,7 @@
               "cell": "3754cebc-fea4-49df-b8f0-b7d7c73398e6",
               "port": "c2fab9fc-149c-407b-949f-f4c1b91c2407"
             },
-            "vertices": [
-              {
-                "x": 190,
-                "y": 140
-              },
-              {
-                "x": 360,
-                "y": 140
-              }
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1449,8 +1440,8 @@
             },
             "vertices": [
               {
-                "x": 1040,
-                "y": 70
+                "x": 1050,
+                "y": -110
               }
             ]
           },
@@ -1502,11 +1493,11 @@
             "vertices": [
               {
                 "x": 250,
-                "y": -100
+                "y": -290
               },
               {
-                "x": 620,
-                "y": -100
+                "x": 630,
+                "y": -290
               }
             ]
           },
@@ -2119,7 +2110,7 @@
           {
             "position": {
               "x": 345,
-              "y": 20.00000000000432
+              "y": -209.99999999999568
             },
             "size": {
               "width": 120,
@@ -2645,6 +2636,126 @@
                   "score": ""
                 }
               ]
+            }
+          },
+          {
+            "position": {
+              "x": 475,
+              "y": 110.00000000000102
+            },
+            "size": {
+              "width": 200,
+              "height": 140
+            },
+            "attrs": {
+              "text": {
+                "text": "Gather\nImages Application\n(Python)"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "2e4e1fe3-fabf-42f8-b63e-48df3171c092"
+                },
+                {
+                  "group": "right",
+                  "id": "a472abd6-5a5a-4d46-b777-1e05cec68ed0"
+                },
+                {
+                  "group": "bottom",
+                  "id": "2d1c7408-40d6-48dd-8379-5691747a05e7"
+                },
+                {
+                  "group": "left",
+                  "id": "d87c8995-d00c-42b1-a94a-cfa74b6879c1"
+                }
+              ]
+            },
+            "id": "f0e439ef-4ebf-4419-a9ac-20d0ef4385c0",
+            "zIndex": 17,
+            "data": {
+              "type": "tm.Process",
+              "name": "Gather\nImages Application\n(Python)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
             }
           }
         ]
