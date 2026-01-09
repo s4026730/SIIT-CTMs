@@ -1607,7 +1607,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Stores",
+              "name": "Persist data",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1621,7 +1621,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Stores"
+              "Persist data"
             ],
             "id": "9829710f-134b-458a-9915-8a9de37ded82",
             "source": {
