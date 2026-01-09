@@ -1422,7 +1422,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Upload Data",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1436,7 +1436,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Upload Data"
             ],
             "id": "385b4f59-c10b-46fc-aad2-8be0da453412",
             "source": {
