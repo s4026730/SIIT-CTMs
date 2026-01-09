@@ -2942,6 +2942,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -3025,7 +3026,6 @@
               ]
             },
             "id": "e863b42e-a6bf-423e-a114-7a35fc6d8fe3",
-            "zIndex": 18,
             "data": {
               "type": "tm.Store",
               "name": "Model Training & Evaluation System",
