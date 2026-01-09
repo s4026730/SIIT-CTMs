@@ -2049,7 +2049,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Upload Refined and Unbiased data",
+              "name": "Publish validated datasets",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2063,7 +2063,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Upload Refined and Unbiased data"
+              "Publish validated datasets"
             ],
             "id": "9102a76e-fa9e-4a27-be8e-8f09fdea85ef",
             "source": {
