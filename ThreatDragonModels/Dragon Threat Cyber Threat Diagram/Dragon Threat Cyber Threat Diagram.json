@@ -1914,7 +1914,68 @@
               "cell": "f0e439ef-4ebf-4419-a9ac-20d0ef4385c0",
               "port": "2e4e1fe3-fabf-42f8-b63e-48df3171c092"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 510,
+                "y": -80
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "4b0887f2-bc12-40e8-b75c-ba4afb99bb20",
+            "source": {
+              "cell": "9e7e559d-1064-4493-ba5e-48f59912472e",
+              "port": "a3f38abb-d15b-4f64-87de-7058baf8dc27"
+            },
+            "target": {
+              "cell": "f0e439ef-4ebf-4419-a9ac-20d0ef4385c0",
+              "port": "2e4e1fe3-fabf-42f8-b63e-48df3171c092"
+            },
+            "vertices": [
+              {
+                "x": 690,
+                "y": -70
+              },
+              {
+                "x": 580,
+                "y": -70
+              }
+            ]
           },
           {
             "position": {
@@ -2687,8 +2748,8 @@
           },
           {
             "position": {
-              "x": 460,
-              "y": -9.999999999998977
+              "x": 430,
+              "y": -30
             },
             "size": {
               "width": 200,
