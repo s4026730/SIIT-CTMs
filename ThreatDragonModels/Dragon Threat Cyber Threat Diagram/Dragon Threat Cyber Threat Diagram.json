@@ -1740,7 +1740,6 @@
               "cell": "e863b42e-a6bf-423e-a114-7a35fc6d8fe3",
               "port": "9dfbf075-daa4-4a6d-9679-d31db805c365"
             },
-            "vertices": [],
             "tools": {
               "items": [
                 "boundary",
@@ -1750,7 +1749,8 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1828,21 +1828,21 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Import",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "TLS",
               "threats": [],
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Import"
             ],
             "id": "c51c044e-1cf4-444d-bd8b-121d307439f4",
             "source": {
@@ -2769,16 +2769,16 @@
           },
           {
             "position": {
-              "x": -20,
-              "y": -10
+              "x": -20.00000000000002,
+              "y": -9.999999999999975
             },
             "size": {
               "width": 120,
-              "height": 60
+              "height": 80
             },
             "attrs": {
               "text": {
-                "text": "Adversarial Robustness Toolbox (ART)"
+                "text": "Security Testing Engine\n(e.g. \nAdversarial Robustness Toolbox (ART), \netc...)"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -2877,7 +2877,7 @@
             "id": "77ce933e-7b8b-4551-9ca1-d88d9358309e",
             "data": {
               "type": "tm.Store",
-              "name": "Adversarial Robustness Toolbox (ART)",
+              "name": "Security Testing Engine\n(e.g. \nAdversarial Robustness Toolbox (ART), \netc...)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2889,13 +2889,6 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ]
