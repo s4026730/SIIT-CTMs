@@ -1366,53 +1366,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Import",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Import"
-            ],
-            "id": "8b8c9292-a332-44d8-9cc7-4264937388a6",
-            "source": {
-              "cell": "1feca809-a906-405e-82f1-4fe2d00dc266",
-              "port": "b7214710-6a49-45ac-bbaa-63abb59f7e90"
-            },
-            "target": {
-              "cell": "3754cebc-fea4-49df-b8f0-b7d7c73398e6",
-              "port": "c2fab9fc-149c-407b-949f-f4c1b91c2407"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Upload Data",
               "description": "",
               "outOfScope": false,
@@ -1868,6 +1821,100 @@
                 "y": -290
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Import",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Import"
+            ],
+            "id": "8b8c9292-a332-44d8-9cc7-4264937388a6",
+            "source": {
+              "cell": "1feca809-a906-405e-82f1-4fe2d00dc266",
+              "port": "b7214710-6a49-45ac-bbaa-63abb59f7e90"
+            },
+            "target": {
+              "cell": "3754cebc-fea4-49df-b8f0-b7d7c73398e6",
+              "port": "c2fab9fc-149c-407b-949f-f4c1b91c2407"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Import",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Import"
+            ],
+            "id": "1b74934e-17f2-406c-ae63-80f68d17b9e3",
+            "source": {
+              "cell": "1feca809-a906-405e-82f1-4fe2d00dc266",
+              "port": "b7214710-6a49-45ac-bbaa-63abb59f7e90"
+            },
+            "target": {
+              "cell": "f0e439ef-4ebf-4419-a9ac-20d0ef4385c0",
+              "port": "2e4e1fe3-fabf-42f8-b63e-48df3171c092"
+            },
+            "vertices": []
           },
           {
             "position": {
@@ -2756,15 +2803,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ]
