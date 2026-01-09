@@ -2640,8 +2640,8 @@
           },
           {
             "position": {
-              "x": 475,
-              "y": 110.00000000000102
+              "x": 460,
+              "y": -9.999999999998977
             },
             "size": {
               "width": 200,
@@ -2659,6 +2659,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -2742,7 +2743,6 @@
               ]
             },
             "id": "f0e439ef-4ebf-4419-a9ac-20d0ef4385c0",
-            "zIndex": 17,
             "data": {
               "type": "tm.Process",
               "name": "Gather\nImages Application\n(Python)",
