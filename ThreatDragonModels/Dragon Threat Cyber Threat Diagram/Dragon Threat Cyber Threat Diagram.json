@@ -1578,8 +1578,8 @@
             },
             "vertices": [
               {
-                "x": 720,
-                "y": -110
+                "x": 700,
+                "y": -90
               },
               {
                 "x": 560,
@@ -1843,6 +1843,58 @@
               {
                 "x": 630,
                 "y": -40
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "56e497b1-fb52-4fdf-8d5d-8ebd6d677f8a",
+            "source": {
+              "cell": "77ce933e-7b8b-4551-9ca1-d88d9358309e",
+              "port": "27a82aa6-88c7-4d76-a222-64970383b4b6"
+            },
+            "target": {
+              "cell": "02eb06c0-69f9-45cd-a6d0-7815ea73068f",
+              "port": "791518d4-4179-4544-9630-f23f952215ff"
+            },
+            "vertices": [
+              {
+                "x": 660,
+                "y": -140
               }
             ]
           },
@@ -2886,6 +2938,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 20,
             "ports": {
               "groups": {
                 "top": {
@@ -2969,7 +3022,6 @@
               ]
             },
             "id": "77ce933e-7b8b-4551-9ca1-d88d9358309e",
-            "zIndex": 20,
             "data": {
               "type": "tm.Store",
               "name": "Adversarial Robustness Toolbox (ART)",
