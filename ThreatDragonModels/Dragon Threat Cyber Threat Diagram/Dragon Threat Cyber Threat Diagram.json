@@ -1173,9 +1173,9 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "TLS",
               "threats": [],
               "trustBoundaryIds": []
             },
@@ -1220,9 +1220,9 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "TLS",
               "threats": [],
               "trustBoundaryIds": []
             },
@@ -1284,9 +1284,9 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "TLS",
               "threats": [],
               "trustBoundaryIds": []
             },
@@ -1855,7 +1855,7 @@
               "hasOpenThreats": false,
               "isBidirectional": false,
               "isEncrypted": true,
-              "isPublicNetwork": false,
+              "isPublicNetwork": true,
               "protocol": "TLS",
               "threats": [],
               "trustBoundaryIds": []
@@ -1873,58 +1873,6 @@
               "port": "c2fab9fc-149c-407b-949f-f4c1b91c2407"
             },
             "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Import",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": true,
-              "isPublicNetwork": false,
-              "protocol": "TLS",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Import"
-            ],
-            "id": "1b74934e-17f2-406c-ae63-80f68d17b9e3",
-            "source": {
-              "cell": "1feca809-a906-405e-82f1-4fe2d00dc266",
-              "port": "b7214710-6a49-45ac-bbaa-63abb59f7e90"
-            },
-            "target": {
-              "cell": "f0e439ef-4ebf-4419-a9ac-20d0ef4385c0",
-              "port": "2e4e1fe3-fabf-42f8-b63e-48df3171c092"
-            },
-            "vertices": [
-              {
-                "x": 480,
-                "y": -70
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -2056,9 +2004,9 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "TLS",
               "threats": [],
               "trustBoundaryIds": []
             },
@@ -2131,6 +2079,58 @@
               "port": "791518d4-4179-4544-9630-f23f952215ff"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Import",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "TLS",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Import"
+            ],
+            "id": "1b74934e-17f2-406c-ae63-80f68d17b9e3",
+            "source": {
+              "cell": "1feca809-a906-405e-82f1-4fe2d00dc266",
+              "port": "b7214710-6a49-45ac-bbaa-63abb59f7e90"
+            },
+            "target": {
+              "cell": "f0e439ef-4ebf-4419-a9ac-20d0ef4385c0",
+              "port": "2e4e1fe3-fabf-42f8-b63e-48df3171c092"
+            },
+            "vertices": [
+              {
+                "x": 460,
+                "y": -90
+              }
+            ]
           },
           {
             "position": {
@@ -3163,6 +3163,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -3246,7 +3247,6 @@
               ]
             },
             "id": "02eb06c0-69f9-45cd-a6d0-7815ea73068f",
-            "zIndex": 19,
             "data": {
               "type": "tm.Process",
               "name": "Process",
