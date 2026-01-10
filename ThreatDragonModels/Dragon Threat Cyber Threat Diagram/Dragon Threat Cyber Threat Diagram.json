@@ -617,8 +617,8 @@
           },
           {
             "position": {
-              "x": 1363.75,
-              "y": 510
+              "x": 1350,
+              "y": 479.99999999999994
             },
             "size": {
               "width": 112.5,
@@ -878,8 +878,8 @@
             },
             "vertices": [
               {
-                "x": 1330,
-                "y": 420
+                "x": 1320,
+                "y": 410
               }
             ]
           },
@@ -977,8 +977,8 @@
             },
             "vertices": [
               {
-                "x": 1240,
-                "y": 200
+                "x": 1210,
+                "y": 190
               }
             ]
           },
@@ -1029,8 +1029,8 @@
             },
             "vertices": [
               {
-                "x": 1520,
-                "y": 420
+                "x": 1490,
+                "y": 410
               }
             ]
           },
@@ -1143,8 +1143,8 @@
             },
             "vertices": [
               {
-                "x": 1580,
-                "y": 50
+                "x": 1570,
+                "y": 70
               }
             ]
           },
@@ -1500,73 +1500,6 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Worker Query Results",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "211421b6-1bc1-4d4e-82b5-868d3cb3ee29",
-                  "title": "Man in The Middle Attack",
-                  "status": "Open",
-                  "severity": "Low",
-                  "type": "Information disclosure",
-                  "description": "The AI could intercept the database queries in transit and obtain sensitive information, such as credentials, query parameters or query results (is unlikely since the data flow is over a private network)",
-                  "mitigation": "Enforce an encrypted connection to the server",
-                  "modelType": "default",
-                  "new": false,
-                  "number": 3,
-                  "score": ""
-                }
-              ],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Worker Query Results"
-            ],
-            "id": "5c69961c-8568-42c8-ae27-39ec126d4721",
-            "source": {
-              "cell": "f3b040ca-a8af-4525-b841-bb18ee320c46",
-              "port": "af69278d-ed9d-4968-9030-8272ee4bd3af"
-            },
-            "target": {
-              "cell": "c4f5c706-4f67-4a87-aa3d-b88b99eb435e",
-              "port": "da52bbec-be9d-464e-8fb4-b166e8ab7c73"
-            },
-            "vertices": [
-              {
-                "x": 1180,
-                "y": 50
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
                 "stroke": "#333333",
                 "targetMarker": {
                   "name": "block"
@@ -1813,6 +1746,73 @@
               {
                 "x": 690,
                 "y": -170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Worker Query Results",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "211421b6-1bc1-4d4e-82b5-868d3cb3ee29",
+                  "title": "Man in The Middle Attack",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Information disclosure",
+                  "description": "The AI could intercept the database queries in transit and obtain sensitive information, such as credentials, query parameters or query results (is unlikely since the data flow is over a private network)",
+                  "mitigation": "Enforce an encrypted connection to the server",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Worker Query Results"
+            ],
+            "id": "5c69961c-8568-42c8-ae27-39ec126d4721",
+            "source": {
+              "cell": "f3b040ca-a8af-4525-b841-bb18ee320c46",
+              "port": "af69278d-ed9d-4968-9030-8272ee4bd3af"
+            },
+            "target": {
+              "cell": "c4f5c706-4f67-4a87-aa3d-b88b99eb435e",
+              "port": "da52bbec-be9d-464e-8fb4-b166e8ab7c73"
+            },
+            "vertices": [
+              {
+                "x": 1180,
+                "y": 70
               }
             ]
           },
@@ -2066,8 +2066,8 @@
           },
           {
             "position": {
-              "x": 1350,
-              "y": 200
+              "x": 1336.25,
+              "y": 180
             },
             "size": {
               "width": 140,
@@ -2186,7 +2186,7 @@
           },
           {
             "position": {
-              "x": 1356.25,
+              "x": 1346.25,
               "y": -100
             },
             "size": {
