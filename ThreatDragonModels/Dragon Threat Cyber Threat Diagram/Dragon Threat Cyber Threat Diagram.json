@@ -777,21 +777,6 @@
               "cell": "3754cebc-fea4-49df-b8f0-b7d7c73398e6",
               "port": "c2fab9fc-149c-407b-949f-f4c1b91c2407"
             },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            },
             "vertices": [
               {
                 "x": 360,
