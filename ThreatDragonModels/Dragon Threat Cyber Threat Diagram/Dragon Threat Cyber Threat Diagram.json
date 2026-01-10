@@ -777,12 +777,6 @@
               "cell": "3754cebc-fea4-49df-b8f0-b7d7c73398e6",
               "port": "c2fab9fc-149c-407b-949f-f4c1b91c2407"
             },
-            "vertices": [
-              {
-                "x": 360,
-                "y": 110
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -797,7 +791,13 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 360,
+                "y": 110
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1769,7 +1769,6 @@
               "cell": "9e7e559d-1064-4493-ba5e-48f59912472e",
               "port": "a3f38abb-d15b-4f64-87de-7058baf8dc27"
             },
-            "vertices": [],
             "tools": {
               "items": [
                 "boundary",
@@ -1779,7 +1778,8 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
