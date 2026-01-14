@@ -136,7 +136,7 @@
           },
           {
             "position": {
-              "x": 967.5,
+              "x": 1027.5,
               "y": 220
             },
             "size": {
@@ -373,8 +373,8 @@
           },
           {
             "position": {
-              "x": 640,
-              "y": 300
+              "x": 700,
+              "y": 320
             },
             "size": {
               "width": 140,
@@ -981,7 +981,7 @@
             },
             "vertices": [
               {
-                "x": 1210,
+                "x": 1240,
                 "y": 190
               }
             ]
@@ -1520,7 +1520,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Deploy Packages",
+              "name": "Deploy Packages (TLS / SSH)",
               "description": "Transfer data from Machine Learning Model to Deployment.",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1529,12 +1529,12 @@
               "isBidirectional": false,
               "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "TLS",
+              "protocol": "(TLS / SSH)",
               "threats": [],
               "trustBoundaryIds": []
             },
             "labels": [
-              "Deploy Packages"
+              "Deploy Packages (TLS / SSH)"
             ],
             "id": "7e899b34-e3fe-4747-a30d-931d29832c2b",
             "source": {
@@ -1594,8 +1594,8 @@
             },
             "vertices": [
               {
-                "x": 980,
-                "y": 350
+                "x": 1030,
+                "y": 370
               }
             ]
           },
@@ -1619,7 +1619,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Publish validated datasets",
+              "name": "Publish validated datasets (TLS / SSH)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1628,12 +1628,12 @@
               "isBidirectional": false,
               "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "TLS",
+              "protocol": "(TLS / SSH)",
               "threats": [],
               "trustBoundaryIds": []
             },
             "labels": [
-              "Publish validated datasets"
+              "Publish validated datasets (TLS / SSH)"
             ],
             "id": "9102a76e-fa9e-4a27-be8e-8f09fdea85ef",
             "source": {
@@ -1666,21 +1666,21 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Transfer",
+              "name": "Data Transfer (TLS / SSH)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "(TLS / SSH)",
               "threats": [],
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Transfer"
+              "Data Transfer (TLS / SSH)"
             ],
             "id": "385b4f59-c10b-46fc-aad2-8be0da453412",
             "source": {
@@ -2597,7 +2597,7 @@
           },
           {
             "position": {
-              "x": 510,
+              "x": 495,
               "y": 220
             },
             "size": {
