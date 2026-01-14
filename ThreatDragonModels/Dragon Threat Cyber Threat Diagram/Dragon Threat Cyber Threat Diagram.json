@@ -1594,7 +1594,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Update & Activate",
+              "name": "Update & Activate (SSH)",
               "description": "Update latest Machine Learning Model version and start",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1603,12 +1603,12 @@
               "isBidirectional": false,
               "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "TLS",
+              "protocol": "SSH",
               "threats": [],
               "trustBoundaryIds": []
             },
             "labels": [
-              "Update & Activate"
+              "Update & Activate (SSH)"
             ],
             "id": "c93fc925-7aff-4e4d-87c7-97e0f2e8fa7c",
             "source": {
