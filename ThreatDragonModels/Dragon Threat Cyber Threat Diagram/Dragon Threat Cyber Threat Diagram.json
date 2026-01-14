@@ -19,7 +19,7 @@
         "cells": [
           {
             "position": {
-              "x": 140,
+              "x": 180,
               "y": -160
             },
             "size": {
@@ -779,8 +779,12 @@
             },
             "vertices": [
               {
-                "x": 360,
-                "y": 110
+                "x": 260,
+                "y": 140
+              },
+              {
+                "x": 380,
+                "y": 140
               }
             ]
           },
@@ -1262,21 +1266,21 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Transfer",
+              "name": "Data Transfer (TLS / SSH)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "(TLS / SSH)",
               "threats": [],
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Transfer"
+              "Data Transfer (TLS / SSH)"
             ],
             "id": "4b0887f2-bc12-40e8-b75c-ba4afb99bb20",
             "source": {
@@ -1709,7 +1713,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Transfer",
+              "name": "Data Transfer (TLS / SSH)",
               "description": "Giving necessarily data for the Machine Learning Model to trained.",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1718,12 +1722,12 @@
               "isBidirectional": false,
               "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "TLS",
               "threats": [],
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Transfer"
+              "Data Transfer (TLS / SSH)"
             ],
             "id": "5e12a05d-ccad-4f5e-9b5b-2a9a326548c2",
             "source": {
