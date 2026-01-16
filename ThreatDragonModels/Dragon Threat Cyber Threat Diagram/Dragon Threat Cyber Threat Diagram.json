@@ -136,7 +136,7 @@
           },
           {
             "position": {
-              "x": 1027.5,
+              "x": 1073.75,
               "y": 220
             },
             "size": {
@@ -374,7 +374,7 @@
           {
             "position": {
               "x": 700,
-              "y": 280
+              "y": 290
             },
             "size": {
               "width": 140,
@@ -617,8 +617,8 @@
           },
           {
             "position": {
-              "x": 1350,
-              "y": 400
+              "x": 1450,
+              "y": 420
             },
             "size": {
               "width": 112.5,
@@ -1003,8 +1003,8 @@
             },
             "vertices": [
               {
-                "x": 1240,
-                "y": 190
+                "x": 1310,
+                "y": 180
               }
             ]
           },
@@ -1460,7 +1460,7 @@
             },
             "vertices": [
               {
-                "x": 1040,
+                "x": 1080,
                 "y": 350
               }
             ]
@@ -1509,53 +1509,6 @@
             "target": {
               "cell": "df7d341b-4a19-4e50-8fda-0ba268e588e7",
               "port": "e053a327-d135-4cd7-9a57-03aee88b86d5"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Transfer (TLS / SSH)",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": true,
-              "isPublicNetwork": false,
-              "protocol": "(TLS / SSH)",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Transfer (TLS / SSH)"
-            ],
-            "id": "385b4f59-c10b-46fc-aad2-8be0da453412",
-            "source": {
-              "cell": "df7d341b-4a19-4e50-8fda-0ba268e588e7",
-              "port": "566bdc54-05d1-4312-ad38-057ee3253ca0"
-            },
-            "target": {
-              "cell": "9e7e559d-1064-4493-ba5e-48f59912472e",
-              "port": "a3f38abb-d15b-4f64-87de-7058baf8dc27"
             },
             "vertices": []
           },
@@ -1681,8 +1634,8 @@
             },
             "vertices": [
               {
-                "x": 1170,
-                "y": 80
+                "x": 1230,
+                "y": 90
               }
             ]
           },
@@ -1837,8 +1790,60 @@
             },
             "vertices": [
               {
-                "x": 1610,
-                "y": 360
+                "x": 1690,
+                "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Transfer (TLS / SSH)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "(TLS / SSH)",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Transfer (TLS / SSH)"
+            ],
+            "id": "385b4f59-c10b-46fc-aad2-8be0da453412",
+            "source": {
+              "cell": "df7d341b-4a19-4e50-8fda-0ba268e588e7",
+              "port": "e053a327-d135-4cd7-9a57-03aee88b86d5"
+            },
+            "target": {
+              "cell": "9e7e559d-1064-4493-ba5e-48f59912472e",
+              "port": "a3f38abb-d15b-4f64-87de-7058baf8dc27"
+            },
+            "vertices": [
+              {
+                "x": 1020,
+                "y": 200
               }
             ]
           },
@@ -2092,7 +2097,7 @@
           },
           {
             "position": {
-              "x": 1336.25,
+              "x": 1436.25,
               "y": 180
             },
             "size": {
@@ -2226,7 +2231,7 @@
           },
           {
             "position": {
-              "x": 1346.25,
+              "x": 1446.25,
               "y": -70
             },
             "size": {
@@ -2379,7 +2384,7 @@
           },
           {
             "position": {
-              "x": 1060,
+              "x": 1110,
               "y": -120
             },
             "size": {
