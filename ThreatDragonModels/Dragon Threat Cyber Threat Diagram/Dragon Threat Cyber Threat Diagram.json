@@ -893,7 +893,9 @@
               "isPublicNetwork": true,
               "protocol": "HTTP/S",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "288ed883-1460-4836-98ab-4cd39ce8ba92"
+              ]
             },
             "labels": [
               "Web Request (HTTP/S)"
@@ -1452,7 +1454,9 @@
               "isPublicNetwork": false,
               "protocol": "SSH",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "288ed883-1460-4836-98ab-4cd39ce8ba92"
+              ]
             },
             "labels": [
               "Update & Activate (SSH)"
@@ -1504,7 +1508,9 @@
               "isPublicNetwork": false,
               "protocol": "(TLS / SSH)",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "288ed883-1460-4836-98ab-4cd39ce8ba92"
+              ]
             },
             "labels": [
               "Publish validated datasets (TLS / SSH)"
@@ -1782,7 +1788,9 @@
               "isPublicNetwork": true,
               "protocol": "HTTP/S",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "288ed883-1460-4836-98ab-4cd39ce8ba92"
+              ]
             },
             "labels": [
               "Web Response (HTTP/S)"
@@ -1834,7 +1842,9 @@
               "isPublicNetwork": false,
               "protocol": "(TLS / SSH)",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "288ed883-1460-4836-98ab-4cd39ce8ba92"
+              ]
             },
             "labels": [
               "Data Transfer (TLS / SSH)"
@@ -1957,6 +1967,71 @@
               {
                 "x": 900,
                 "y": 430
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "ab341de4-dc18-4857-9a6d-fe20bb1067d1",
+                "c93fc925-7aff-4e4d-87c7-97e0f2e8fa7c",
+                "9102a76e-fa9e-4a27-be8e-8f09fdea85ef",
+                "7c0ce1f9-2d74-432a-80fb-ace82d017206",
+                "385b4f59-c10b-46fc-aad2-8be0da453412"
+              ],
+              "containedElements": [
+                "df7d341b-4a19-4e50-8fda-0ba268e588e7",
+                "7aefe8c6-7ef6-48c4-bdb9-7ba2bb8f62c5",
+                "f3b040ca-a8af-4525-b841-bb18ee320c46",
+                "c4f5c706-4f67-4a87-aa3d-b88b99eb435e"
+              ]
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "288ed883-1460-4836-98ab-4cd39ce8ba92",
+            "source": {
+              "x": 1390,
+              "y": 350
+            },
+            "target": {
+              "x": 1390,
+              "y": 350
+            },
+            "vertices": [
+              {
+                "x": 1600,
+                "y": 270
+              },
+              {
+                "x": 1580,
+                "y": -80
+              },
+              {
+                "x": 1240,
+                "y": -150
+              },
+              {
+                "x": 1080,
+                "y": -50
+              },
+              {
+                "x": 1170,
+                "y": 100
+              },
+              {
+                "x": 1380,
+                "y": 130
               }
             ]
           },
