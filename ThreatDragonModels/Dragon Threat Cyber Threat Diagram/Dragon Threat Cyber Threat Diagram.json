@@ -1863,7 +1863,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "Attacker's Environment",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -1886,7 +1886,7 @@
               ]
             },
             "labels": [
-              "Trust Boundary"
+              "Attacker's Environment"
             ],
             "id": "fb87c97e-8f9b-4674-a906-54cea22db74a",
             "source": {
@@ -2511,7 +2511,7 @@
               "body": {
                 "stroke": "red",
                 "strokeWidth": 2.5,
-                "strokeDasharray": null
+                "strokeDasharray": "4 3"
               }
             },
             "visible": true,
@@ -2604,7 +2604,7 @@
               "type": "tm.Process",
               "name": "Background\nWorker Process",
               "description": "",
-              "outOfScope": false,
+              "outOfScope": true,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
