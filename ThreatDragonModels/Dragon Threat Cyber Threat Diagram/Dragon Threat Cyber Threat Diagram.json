@@ -1982,7 +1982,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "Platform's Environment",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -2001,7 +2001,7 @@
               ]
             },
             "labels": [
-              "Trust Boundary"
+              "Platform's Environment"
             ],
             "id": "288ed883-1460-4836-98ab-4cd39ce8ba92",
             "source": {
