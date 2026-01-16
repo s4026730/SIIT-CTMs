@@ -374,7 +374,7 @@
           {
             "position": {
               "x": 700,
-              "y": 320
+              "y": 280
             },
             "size": {
               "width": 140,
@@ -618,7 +618,7 @@
           {
             "position": {
               "x": 1350,
-              "y": 479.99999999999994
+              "y": 400
             },
             "size": {
               "width": 112.5,
@@ -907,12 +907,7 @@
               "cell": "7aefe8c6-7ef6-48c4-bdb9-7ba2bb8f62c5",
               "port": "25dfac25-d708-43ec-b9e2-f98e749fb1b1"
             },
-            "vertices": [
-              {
-                "x": 1320,
-                "y": 410
-              }
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1010,58 +1005,6 @@
               {
                 "x": 1240,
                 "y": 190
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Web Response (HTTP/S)",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": true,
-              "isPublicNetwork": true,
-              "protocol": "HTTP/S",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Web Response (HTTP/S)"
-            ],
-            "id": "7c0ce1f9-2d74-432a-80fb-ace82d017206",
-            "source": {
-              "cell": "7aefe8c6-7ef6-48c4-bdb9-7ba2bb8f62c5",
-              "port": "25dfac25-d708-43ec-b9e2-f98e749fb1b1"
-            },
-            "target": {
-              "cell": "81bf0473-9caa-4351-8192-411628f74fb3",
-              "port": "566bdc54-05d1-4312-ad38-057ee3253ca0"
-            },
-            "vertices": [
-              {
-                "x": 1490,
-                "y": 410
               }
             ]
           },
@@ -1174,8 +1117,8 @@
             },
             "vertices": [
               {
-                "x": 1570,
-                "y": 70
+                "x": 1560,
+                "y": 80
               }
             ]
           },
@@ -1368,7 +1311,7 @@
             "vertices": [
               {
                 "x": 290,
-                "y": 370
+                "y": 360
               },
               {
                 "x": 290,
@@ -1517,8 +1460,8 @@
             },
             "vertices": [
               {
-                "x": 1030,
-                "y": 370
+                "x": 1040,
+                "y": 350
               }
             ]
           },
@@ -1738,8 +1681,8 @@
             },
             "vertices": [
               {
-                "x": 1180,
-                "y": 70
+                "x": 1170,
+                "y": 80
               }
             ]
           },
@@ -1848,9 +1791,61 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Web Response (HTTP/S)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTP/S",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Web Response (HTTP/S)"
+            ],
+            "id": "7c0ce1f9-2d74-432a-80fb-ace82d017206",
+            "source": {
+              "cell": "7aefe8c6-7ef6-48c4-bdb9-7ba2bb8f62c5",
+              "port": "41c8a897-312a-4d2e-a359-30b01222e762"
+            },
+            "target": {
+              "cell": "81bf0473-9caa-4351-8192-411628f74fb3",
+              "port": "c010b299-425b-4868-8686-a4e0685edea6"
+            },
+            "vertices": [
+              {
+                "x": 1610,
+                "y": 360
+              }
+            ]
+          },
+          {
             "position": {
               "x": 315,
-              "y": 419.99999999999994
+              "y": 400
             },
             "size": {
               "width": 180,
@@ -2109,8 +2104,8 @@
                 "text": "Social Media \nPlatform"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2207,18 +2202,32 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "991f9e4f-5993-41cc-9c74-878e62866c1b",
+                  "title": "DDOS",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Security",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                }
+              ]
             }
           },
           {
             "position": {
               "x": 1346.25,
-              "y": -100
+              "y": -70
             },
             "size": {
               "width": 120,
@@ -2370,8 +2379,8 @@
           },
           {
             "position": {
-              "x": 1070,
-              "y": -150
+              "x": 1060,
+              "y": -120
             },
             "size": {
               "width": 140,
@@ -2748,8 +2757,8 @@
           },
           {
             "position": {
-              "x": 20,
-              "y": 310
+              "x": 32.5,
+              "y": 300
             },
             "size": {
               "width": 240,
@@ -2873,7 +2882,7 @@
           {
             "position": {
               "x": 32.5,
-              "y": 419.99999999999994
+              "y": 400
             },
             "size": {
               "width": 170,
@@ -2999,6 +3008,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 11
+    "threatTop": 12
   }
 }
